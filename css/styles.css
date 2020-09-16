@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+body { 
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Arial", sans-serif;
+  background-color: #f0cfd5;
+}
+
+.wrapper {
+  width: 900px;
+  height: 570px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  background-color: #fff;
+  box-shadow: 0px 20px 30px -10px rgba(133, 95, 100, 0.8);
+}
+
+.left {
+  width: 300px;
+  height: 570px;
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  padding: 30px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.left-top {
+  display: flex;
+  align-items: center;
+}
+
+.left p {
+  padding: 0;
+  margin: 0;
+  margin-left: 5px;
+  color: #424040;
+  text-transform: uppercase;
+}
+
+.right {
+  width: 600px;
+  padding: 30px;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  list-style-type: none;
+  margin-left: 30px;
+}
+
+
+.nav a{
+  text-decoration: none;
+  color: #aaa;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.black a {
+  color: #000;
+}
+
+.content {
+  padding: 85px 50px 60px 50px;
+}
+
+.heading p{
+  font-family: "Playfair Display", "Arial", sans-serif;
+}
+
+.big-paragraph {
+  display: flex;
+  align-items: flex-end;
+  font-size: 40px;
+}
+
+.big-paragraph p {
+  padding: 0;
+  margin: 0;
+  font-size: 57px;
+  width: 400px;
+}
+
+.big-paragraph hr {
+  width: 100px;
+  height: 3px;
+  background-color: #000;
+  border: none;
+}
+
+.author {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.bottom {
+  display: flex;
+}
+
+.preview {
+  width: 165px;
+   height: 115px;
+   background-image: url("../img/preview.jpg"); 
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+
+.preview img {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255, 0.5);
+  margin-top: 35px;
+  margin-left: 65px;
+}
+
+.view {
+  display: flex;
+  align-items: center;
+}
+
+.view p {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.right-bottom p {
+  padding: 0;
+  margin: 0;
+  margin-left: 40px;
+  line-height: 1.9;
+  font-weight: 400;
+}
